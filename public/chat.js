@@ -1,5 +1,5 @@
 // Make connection
-var socket = io.connect();
+var socket = io.connect('fast-river-46096.herokuapp.com');
 
 // Query DOM
 var message = document.getElementById('message'),
